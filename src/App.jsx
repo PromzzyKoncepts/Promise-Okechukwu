@@ -3,6 +3,7 @@ import { lazy, Suspense } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Footer from './components/Footer';
+import UseScrollToTop from './hooks/useScrollToTop';
 
 const Home = lazy(() => import('./pages/Home'));
 const Header = lazy(() => import('./components/Header'));
@@ -12,7 +13,7 @@ function App() {
     <AnimatePresence>
       <div className="App">
         <div>
-          <Suspense>
+          <Suspense fallback={"Loading"}>
             <Router>
               <Header />
               <Routes>
@@ -20,6 +21,7 @@ function App() {
               </Routes>
               <Footer />
             </Router>
+            <UseScrollToTop />
           </Suspense>
 
         </div>
