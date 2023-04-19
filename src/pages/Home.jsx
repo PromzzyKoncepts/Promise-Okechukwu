@@ -1,4 +1,4 @@
-import { lazy, Suspense } from 'react';
+import { Suspense } from 'react';
 import Skills from '../components/skills';
 import Slider from '../components/Slider';
 import Projects from '../components/Projects';
