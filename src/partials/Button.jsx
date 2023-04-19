@@ -1,5 +1,5 @@
 /* eslint-disable */
 const Button = ({ title }) => (
-  <button>{title}</button>
+  <button className="button">{title}</button>
 );
 export default Button;
