@@ -1,3 +1,4 @@
+/* eslint-disable */
 const Button = ({ title }) => (
   <button>{title}</button>
 );

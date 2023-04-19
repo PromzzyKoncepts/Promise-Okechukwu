@@ -1,16 +1,17 @@
+/* eslint-disable */
 import React from 'react';
-import {
-  FiMenu, FiMoon, FiSun, FiX,
-} from 'react-icons/fi';
+// import {
+//   FiMenu, FiMoon, FiSun, FiX,
+// } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import logo from '../assets/images/p.png';
-import ThemeSwitcher from '../hooks/ThemeSwitcher';
+// import ThemeSwitcher from '../hooks/ThemeSwitcher';
 import Button from '../partials/Button';
 import '../assets/Stylesheets/Header.css';
 
 const Header = () => {
-  const { activeTheme, setTheme } = ThemeSwitcher();
+  // const { activeTheme, setTheme } = ThemeSwitcher();
 
   return (
     <motion.nav

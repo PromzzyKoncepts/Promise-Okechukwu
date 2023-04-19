@@ -3,7 +3,9 @@ import {
   FaReact, FaNodeJs, FaHtml5, FaBootstrap, FaFigma,
 } from 'react-icons/fa';
 import {
-  SiTailwindcss, SiJavascript, SiTypescript, SiCss3, SiRubyonrails, SiRuby, SiPostgresql, SiRender, SiWebpack, SiAdobephotoshop, SiNetlify, SiPostman, SiRedux, SiNestjs,
+  SiTailwindcss, SiJavascript, SiTypescript, SiCss3,
+  SiRubyonrails, SiRuby, SiPostgresql, SiRender, SiWebpack,
+  SiAdobephotoshop, SiNetlify, SiPostman, SiRedux, SiNestjs,
 } from 'react-icons/si';
 
 export default [
