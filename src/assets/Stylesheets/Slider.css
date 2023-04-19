@@ -1,0 +1,54 @@
+.carousel {
+  width: 90%;
+  margin: auto;
+  background-color: #282828;
+  padding: 20px;
+  border-radius: 10px;
+  z-index: 0!important;
+}
+
+.carousel h3 {
+  background-color: #333;
+  width: 60%;
+  margin: auto;
+  padding: 10px 0;
+  color: #fff;
+}
+
+.image-wrapper {
+  position: relative;
+}
+
+.image-links {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.image-wrapper:hover .image-links {
+  display: block;
+}
+
+.image-wrapper:hover img {
+  filter: blur(5px);
+}
+
+.live-demo-link,
+.github-link {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  margin-right: 16px;
+}
+
+.live-demo-link:hover,
+.github-link:hover {
+  background-color: #555;
+  color: #07a8da !important;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+}
