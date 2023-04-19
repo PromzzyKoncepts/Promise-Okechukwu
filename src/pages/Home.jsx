@@ -1,13 +1,20 @@
-import React from 'react';
+import { lazy, Suspense } from 'react';
 import Skills from '../components/skills';
 import Slider from '../components/Slider';
+import Projects from '../components/Projects';
+
+// const Projects = lazy(() => import('../components/Projects'));
 
 const Home = () => (
-  <div>
-    <h1>This is Home</h1>
-    <Slider />
-    <Skills />
-  </div>
+  <Suspense>
+    <div>
+      <Slider />
+      <Projects />
+      <Skills />
+    </div>
+
+  </Suspense>
+
 
 );
 export default Home;
