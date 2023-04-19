@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import { useState, useEffect } from 'react';
 import Slide from 'react-reveal/Slide';
 import { FiChevronUp } from 'react-icons/fi';

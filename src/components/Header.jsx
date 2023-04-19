@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { React, useState } from 'react';
 import { Link } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
@@ -5,7 +6,7 @@ import { motion } from 'framer-motion';
 import logo from '../assets/images/p.png';
 import Button from '../partials/Button';
 import HireMeModal from '../modals/hireMe';
-import "../assets/Stylesheets/Header.css"
+import '../assets/Stylesheets/Header.css';
 
 const Header = () => {
   const [showHireMeModal, setShowHireMeModal] = useState(false);

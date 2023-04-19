@@ -10,6 +10,17 @@
   z-index: 1;
 }
 
+.pages a {
+  margin-right: 20px !important;
+  text-decoration: none !important;
+  color: #f4f4f4 !important;
+}
+
+.pages a:hover {
+  text-decoration: none !important;
+  color: #07a8da !important;
+}
+
 .logo {
   will-change: filter;
   transition: filter 300ms;
@@ -33,17 +44,6 @@
 
 .logo:hover {
   filter: drop-shadow(0 0 2em #07a8da);
-}
-
-.pages a {
-  margin-right: 20px !important;
-  text-decoration: none !important;
-  color: #f4f4f4 !important;
-}
-
-.pages a:hover {
-  text-decoration: none !important;
-  color: #07a8da !important;
 }
 
 .button {
