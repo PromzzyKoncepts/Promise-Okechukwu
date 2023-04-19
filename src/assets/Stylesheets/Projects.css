@@ -9,13 +9,11 @@
 
 .project-container {
   text-align: center;
-
 }
 
 .project-container h2 {
   text-align: center;
   margin: 70px auto 50px auto;
-
 }
 
 .project-card {
@@ -58,7 +56,6 @@
   margin-bottom: 40px;
 }
 
-
 .view {
   background-color: #333;
   color: rgba(0, 195, 255, 0.93) !important;
@@ -69,6 +66,6 @@
 }
 
 .view:hover {
-  background-color: rgba(0, 195, 255, 0.93)!important;
-  color: #282828!important;
+  background-color: rgba(0, 195, 255, 0.93) !important;
+  color: #282828 !important;
 }

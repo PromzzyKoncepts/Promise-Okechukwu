@@ -15,6 +15,5 @@ const Home = () => (
 
   </Suspense>
 
-
 );
 export default Home;

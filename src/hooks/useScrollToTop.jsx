@@ -44,7 +44,7 @@ const useScrollToTop = () => {
             display: showScroll ? 'flex' : 'none',
             float: 'right',
             backgroundColor: '#333',
-            cursor: 'pointer'
+            cursor: 'pointer',
           }}
         />
       </Slide>

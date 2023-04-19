@@ -13,7 +13,7 @@ function App() {
     <AnimatePresence>
       <div className="App">
         <div>
-          <Suspense fallback={"Loading"}>
+          <Suspense fallback="Loading">
             <Router>
               <Header />
               <Routes>
