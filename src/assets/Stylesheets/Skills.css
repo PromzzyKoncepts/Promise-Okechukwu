@@ -1,0 +1,33 @@
+.skill-container {
+  margin-top: 50px!important;
+  width: 70%;
+  margin: auto;
+  color: rgba(0, 195, 255, 0.829)
+}
+
+.skill-container h2 {
+  text-align: center;
+}
+
+.skill-cards {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.card {
+  padding: 20px 3px;
+  border-radius: 8px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  font-size: 2.5rem;
+  gap: 20px;
+  background-color: #282828!important;
+
+}
+
+.card p {
+  font-size: 1.1rem;
+
+}
