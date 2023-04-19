@@ -1,29 +1,33 @@
-import React from "react";
-import { FiMenu, FiMoon, FiSun, FiX } from 'react-icons/fi';
-import { Link } from "react-router-dom";
-import { motion } from "framer-motion";
-import logo from "../assets/images/p.png"
-import ThemeSwitcher from "../hooks/ThemeSwitcher"
-import Button from "../partials/Button";
-import "../assets/Stylesheets/Header.css"
-
+import React from 'react';
+import {
+  FiMenu, FiMoon, FiSun, FiX,
+} from 'react-icons/fi';
+import { Link } from 'react-router-dom';
+import { motion } from 'framer-motion';
+import logo from '../assets/images/p.png';
+import ThemeSwitcher from '../hooks/ThemeSwitcher';
+import Button from '../partials/Button';
+import '../assets/Stylesheets/Header.css';
 
 const Header = () => {
-  const { activeTheme, setTheme } = ThemeSwitcher()
+  const { activeTheme, setTheme } = ThemeSwitcher();
 
   return (
     <motion.nav
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       id="nav"
-      className="">
+      className=""
+    >
       <div className="header">
         <div className="logo">
           <Link to="/">
-            <img src={logo}
+            <img
+              src={logo}
               className="header-logo"
               alt="Dark Logo"
-            />Promise
+            />
+            Promise
           </Link>
 
         </div>
@@ -101,7 +105,7 @@ const Header = () => {
 
       </div>
 
-    </motion.nav >
-  )
-}
-export default Header
+    </motion.nav>
+  );
+};
+export default Header;
