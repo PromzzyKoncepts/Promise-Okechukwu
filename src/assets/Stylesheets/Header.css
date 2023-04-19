@@ -1,0 +1,36 @@
+.header {
+  position: fixed !important;
+  background-color: #242424 !important;
+  border: none !important;
+  color: #f4f4f4 !important;
+  box-shadow: 0 0 40px #0008 !important;
+  padding: 20px 35px !important;
+  width: 100% !important;
+  margin-bottom: 30px;
+  z-index: 1;
+}
+
+.logo {
+  will-change: filter;
+  transition: filter 300ms;
+  display: flex;
+  gap: 10px;
+}
+
+.logo a {
+  color: #f4f4f4;
+  text-decoration: none;
+}
+
+.logo a:hover {
+  color: #f4f4f4;
+}
+
+.header-logo {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #07a8da);
+}
