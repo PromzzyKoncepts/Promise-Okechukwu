@@ -16,6 +16,11 @@
   color: #f4f4f4 !important;
 }
 
+.logo a {
+  color: #f4f4f4;
+  text-decoration: none;
+}
+
 .pages a:hover {
   text-decoration: none !important;
   color: #07a8da !important;
@@ -26,11 +31,6 @@
   transition: filter 300ms;
   display: flex;
   gap: 10px;
-}
-
-.logo a {
-  color: #f4f4f4;
-  text-decoration: none;
 }
 
 .logo a:hover {
