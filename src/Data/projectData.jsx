@@ -43,7 +43,7 @@ export default [
     image: spaceHub,
     technologies: ['React', 'Redux', 'API'],
     github: 'https://github.com/PromzzyKoncepts/Space-Travellers-Hub',
-    demo: 'spacehubb.netlify.app',
+    demo: 'https://spacehubb.netlify.app',
   },
   {
     id: 6,
@@ -59,7 +59,7 @@ export default [
     image: spaceHub,
     technologies: ['React', 'Redux', 'API'],
     github: 'https://github.com/PromzzyKoncepts/BookStore-React',
-    demo: 'bookstore-redux.netlify.app',
+    demo: 'https://bookstore-redux.netlify.app',
   },
   {
     id: 8,
@@ -67,7 +67,7 @@ export default [
     image: pranMovies,
     technologies: ['JavaScript', 'CSS3', 'API'],
     github: 'https://github.com/PromzzyKoncepts/PranMovies',
-    demo: 'PromzzyKoncepts.github.io/PranMovies/',
+    demo: 'https://promzzykoncepts.github.io/PranMovies/',
   },
   {
     id: 9,
@@ -75,6 +75,6 @@ export default [
     image: spaceHub,
     technologies: ['React', 'Javascript', 'CSS'],
     github: 'https://github.com/PromzzyKoncepts/Math-Magician',
-    demo: 'mathmag.netlify.app',
+    demo: 'https://mathmag.netlify.app',
   },
 ];
