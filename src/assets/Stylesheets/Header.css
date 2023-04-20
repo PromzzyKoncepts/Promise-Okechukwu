@@ -1,6 +1,6 @@
 .header {
   position: fixed !important;
-  background-color: #242424 !important;
+  background-color: #161616 !important;
   border: none !important;
   color: #f4f4f4 !important;
   box-shadow: 0 0 40px #0008 !important;
@@ -66,7 +66,7 @@
 
 .footer {
   display: flex;
-  background-color: #242424 !important;
+  background-color: #161616 !important;
   justify-content: center !important;
   gap: 20px;
   border: none !important;
