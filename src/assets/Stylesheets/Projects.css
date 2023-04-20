@@ -17,7 +17,7 @@
 }
 
 .project-card {
-  background-color: #282828;
+  background-color: #1f1f1f;
   border-radius: 10px;
   padding: 30px 10px;
 }
@@ -57,7 +57,7 @@
 }
 
 .view {
-  background-color: #333;
+  background-color: #161616;
   color: rgba(0, 195, 255, 0.93) !important;
   padding: 4px 25px 10px 25px;
   margin-right: 10px;
@@ -67,5 +67,5 @@
 
 .view:hover {
   background-color: rgba(0, 195, 255, 0.93) !important;
-  color: #282828 !important;
+  color: #161616 !important;
 }
