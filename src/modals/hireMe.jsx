@@ -1,4 +1,6 @@
 import { React, useState } from 'react';
+import Proptypes from 'prop-types';
+
 import Modal from 'react-bootstrap/Modal';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
@@ -11,7 +13,6 @@ const HireMeModal = ({ show, handleClose }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // console.log(Email: ${ email } | Selected Option: ${ selectedOption } | Message: ${ message });
     handleClose();
   };
 
@@ -84,3 +85,7 @@ const HireMeModal = ({ show, handleClose }) => {
 };
 
 export default HireMeModal;
+HireMeModal.propTypes = {
+  show: Proptypes.any.isRequired,
+  handleClose: Proptypes.func.isRequired,
+};
