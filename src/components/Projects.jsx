@@ -21,8 +21,8 @@ const Projects = () => (
               ))}
             </div>
             <div>
-              <a href={item.demo} className="view" target="_blank"><BsEyeFill /></a>
-              <a href={item.github} className="view" target="_blank"><BsGithub /></a>
+              <a href={item.demo} className="view" target="_blank" rel="noreferrer"><BsEyeFill /></a>
+              <a href={item.github} className="view" target="_blank" rel="noreferrer"><BsGithub /></a>
             </div>
           </div>
         ))}

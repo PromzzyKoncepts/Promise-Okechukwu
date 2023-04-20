@@ -56,7 +56,7 @@ const HireMeModal = ({ show, handleClose }) => {
               custom
             >
               <option value="">Select an option...</option>
-              {selectOptions.map(option => (
+              {selectOptions.map((option) => (
                 <option key={option} value={option}>{option}</option>
               ))}
             </Form.Control>
