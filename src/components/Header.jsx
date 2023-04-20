@@ -21,7 +21,7 @@ const Header = () => {
       id="nav"
       className=""
     >
-      <Fade right>
+      <Fade left>
         <div className="header">
           <div className="logo">
             <Link to="/">
