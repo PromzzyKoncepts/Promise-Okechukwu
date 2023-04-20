@@ -12,7 +12,7 @@
 .body a {
   font-size: 1.7rem;
   margin-left: 10px;
-  color: #04A5D7!important;
+  color: #04a5d7 !important;
 }
 
 strong {
@@ -42,10 +42,11 @@ strong {
 }
 
 @keyframes animate {
-
   0%,
   100% {
-    clip-path: polygon(0% 45%,
+    clip-path:
+      polygon(
+        0% 45%,
         16% 44%,
         33% 50%,
         54% 60%,
@@ -53,11 +54,14 @@ strong {
         84% 59%,
         100% 52%,
         100% 100%,
-        0% 100%);
+        0% 100%
+      );
   }
 
   50% {
-    clip-path: polygon(0% 60%,
+    clip-path:
+      polygon(
+        0% 60%,
         15% 65%,
         34% 66%,
         51% 62%,
@@ -65,32 +69,31 @@ strong {
         84% 45%,
         100% 46%,
         100% 100%,
-        0% 100%);
+        0% 100%
+      );
   }
 }
 
 .typing {
-    margin-top: 60px;
-      font-size: 18px;
-      font-family: consolas, sans-serif !important;
+  margin-top: 60px;
+  font-size: 18px;
+  font-family: consolas, sans-serif !important;
   width: 68ch;
-  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
-  color: #D8532B;
+  color: #d8532b;
 }
 
 @keyframes typing {
   from {
-    width: 0
+    width: 0;
   }
 }
 
 @keyframes blink {
   50% {
-    border-color: transparent
+    border-color: transparent;
   }
 }
-
-
