@@ -1,0 +1,62 @@
+.about-container {
+  padding: 0px 50px;
+}
+
+.about {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 60px;
+  height: 100vh;
+  place-content: center;
+}
+
+.about p {
+  text-align: justify;
+}
+
+.about-image {
+  max-width: 100%;
+  /* width: 400px; */
+}
+
+.download {
+  text-decoration: none;
+  color: #000!important;
+  background-color: white;
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+
+.download:active {
+  text-decoration: none;
+  color: #fff!important;
+  background-color: brown;
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+
+.counter-container {
+  display: flex;
+  margin-bottom: 120px;
+  padding: 20px;
+  background-color: #1a1a1a;
+  justify-content: center;
+  text-align: center;
+  gap: 30px;
+}
+
+.follow-me {
+  text-align: center;
+  margin: 70px 0;
+}
+
+.follow-links  a{
+  font-size: 2rem;
+  margin-left: 10px;
+  color: #03A9F4;
+}
+
+.follow-links  a:hover{
+  margin-left: 10px;
+  color: white!important;
+}
