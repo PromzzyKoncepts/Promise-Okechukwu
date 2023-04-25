@@ -1,0 +1,47 @@
+.contact-div {
+  display: grid;
+  height: 90vh;
+  place-content: center;
+}
+
+.contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+
+.form {
+  background-color: #282828;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.input {
+  width: 100%!important;
+  background: none;
+  border: none;
+  margin-top: 20px;
+  color: #fff;
+  border-bottom: 0.5px solid #b5e8ff;
+}
+
+.input:focus {
+  outline: 0;
+}
+
+.input:hover::placeholder {
+  color: #03A9F4;
+}
+
+.form-btn {
+  margin-top: 30px!important ;
+}
+
+.contact-details ul li{
+  list-style: none;
+  margin-top: 20px;
+}
+
+.cont-icon {
+  margin-right: 10px;
+}
