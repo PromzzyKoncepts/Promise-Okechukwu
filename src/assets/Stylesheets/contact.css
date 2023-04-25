@@ -45,3 +45,29 @@
 .cont-icon {
   margin-right: 10px;
 }
+
+@media screen and (max-width:768px) {
+  .contact-div {
+    display: grid;
+    height: 100%;
+    padding: 16px;
+  }
+
+  .contact {
+    display: block;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    text-align: center;
+  }
+
+  .form {
+    background-color: #282828;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+  }
+
+  .contact-details ul li {
+    text-align: justify;
+  }
+}

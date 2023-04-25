@@ -1,11 +1,9 @@
-import Zoom from 'react-reveal/Zoom';
 import { BsEyeFill, BsGithub } from 'react-icons/bs';
 import projectData from '../Data/projectData';
 import '../assets/Stylesheets/Projects.css';
 
 const Projects = () => (
   <div className="project-container">
-    <Zoom right>
       <h2>My Projects</h2>
       <div className="card-container">
         {projectData.map((item) => (
@@ -27,7 +25,6 @@ const Projects = () => (
           </div>
         ))}
       </div>
-    </Zoom>
   </div>
 );
 export default Projects;

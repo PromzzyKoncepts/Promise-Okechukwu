@@ -69,3 +69,24 @@
   background-color: rgba(0, 195, 255, 0.93) !important;
   color: #161616 !important;
 }
+
+@media screen and (max-width: 768px) {
+  .card-container {
+    display: block;
+    grid-template-columns: repeat(3, 1fr);
+    width: 75%;
+    margin: auto !important;
+    gap: 50px;
+    place-items: center !important;
+  }
+
+  .project-card img {
+    width: 260px;
+    height: 142px;
+    filter: brightness(40%);
+  }
+
+  .project-card {
+      margin-bottom: 20px;
+  }
+}
