@@ -115,7 +115,6 @@ strong {
     font-family: consolas, sans-serif !important;
     width: 30ch;
     animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
-    white-space: wrap;
     overflow: hidden;
     border-right: 3px solid;
     color: #d8532b;
