@@ -1,7 +1,7 @@
 .carousel {
-  width: 90%;
+  width: 85%;
   margin: auto;
-  background-color: #1a1a1a;
+  /* background-color: #1a1a1a; */
   padding: 20px;
   border-radius: 10px;
   z-index: 0 !important;
@@ -53,4 +53,9 @@
   color: #07a8da !important;
   border-radius: 8px;
   transition: all 0.3s ease-in-out;
+}
+
+.about-desc {
+  font-size: 17px;
+  font-weight: 600;
 }
