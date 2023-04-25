@@ -103,12 +103,12 @@ main {
   }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   .hamburger {
     display: block;
   }
 
   .scrollToTop {
-    transform: translate(-30px, -60px)!important;
+    transform: translate(-30px, -60px) !important;
   }
 }

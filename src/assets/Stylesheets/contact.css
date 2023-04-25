@@ -46,7 +46,7 @@
   margin-right: 10px;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   .contact-div {
     display: grid;
     height: 100%;

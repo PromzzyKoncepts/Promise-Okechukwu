@@ -62,11 +62,11 @@
   color: white !important;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   .about-container {
     padding: 0 20px;
   }
-  
+
   .about {
     display: block;
     gap: 60px;
@@ -97,8 +97,10 @@
     font-size: 0.8rem;
   }
 
-  #experienceCounter, #githubStarsCounter, #feedbackCounter, #projectsCounter {
+  #experienceCounter,
+  #githubStarsCounter,
+  #feedbackCounter,
+  #projectsCounter {
     font-size: 1.2rem;
   }
-
 }

@@ -5,7 +5,7 @@ const StyledMenu = styled.nav`
   flex-direction: column;
   justify-content: center;
   background: #282828;
-  transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(-100%)'};
+  transform: ${({ open }) => (open ? 'translateX(0)' : 'translateX(-100%)')};
   height: 100vh;
   text-align: left;
   padding: 2rem;
@@ -39,26 +39,24 @@ const StyledMenu = styled.nav`
       color: #343078;
     }
   }
-`
+`;
 
-const Menu = ({ open }) => {
-  return (
-    <StyledMenu open={open}>
-      <a href="/">
-        <span role="img" aria-label="Home"></span>
-        Home
-      </a>
-      <a href="/about">
-        <span role="img" aria-label="Home"></span>
-        About us
-      </a>
-      <a href="/contact">
-        <span role="img" aria-label="price"></span>
-        Contact
-      </a>
-    </StyledMenu>
-  )
-}
+const Menu = ({ open }) => (
+  <StyledMenu open={open}>
+    <a href="/">
+      <span role="img" aria-label="Home" />
+      Home
+    </a>
+    <a href="/about">
+      <span role="img" aria-label="Home" />
+      About us
+    </a>
+    <a href="/contact">
+      <span role="img" aria-label="price" />
+      Contact
+    </a>
+  </StyledMenu>
+);
 
 const StyledBurger = styled.button`
   position: absolute;
@@ -85,35 +83,33 @@ const StyledBurger = styled.button`
   div {
     width: 2rem;
     height: 0.25rem;
-    background: ${({ open }) => open ? '#fff' : '#fff'};
+    background: ${({ open }) => (open ? '#fff' : '#fff')};
     border-radius: 10px;
     transition: all 0.3s linear;
     position: relative;
     transform-origin: 1px;
 
     :first-child {
-      transform: ${({ open }) => open ? 'rotate(45deg)' : 'rotate(0)'};
+      transform: ${({ open }) => (open ? 'rotate(45deg)' : 'rotate(0)')};
     }
 
     :nth-child(2) {
-      opacity: ${({ open }) => open ? '0' : '1'};
-      transform: ${({ open }) => open ? 'translateX(20px)' : 'translateX(0)'};
+      opacity: ${({ open }) => (open ? '0' : '1')};
+      transform: ${({ open }) => (open ? 'translateX(20px)' : 'translateX(0)')};
     }
 
     :nth-child(3) {
-      transform: ${({ open }) => open ? 'rotate(-45deg)' : 'rotate(0)'};
+      transform: ${({ open }) => (open ? 'rotate(-45deg)' : 'rotate(0)')};
     }
   }
-`
+`;
 
-const Burger = ({ open, setOpen }) => {
-  return (
-    <StyledBurger open={open} onClick={() => setOpen(!open)}>
-      <div />
-      <div />
-      <div />
-    </StyledBurger>
-  )
-}
+const Burger = ({ open, setOpen }) => (
+  <StyledBurger open={open} onClick={() => setOpen(!open)}>
+    <div />
+    <div />
+    <div />
+  </StyledBurger>
+);
 
 export { Burger, Menu };

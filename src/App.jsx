@@ -1,6 +1,7 @@
-import { React, useState, useRef } from "react";
+import {
+  React, useState, useRef, lazy, Suspense,
+} from 'react';
 import { AnimatePresence } from 'framer-motion';
-import { lazy, Suspense } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import 'react-loading-skeleton/dist/skeleton.css';
 import './App.css';
