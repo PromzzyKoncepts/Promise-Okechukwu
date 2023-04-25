@@ -10,7 +10,7 @@ import { Testimonials } from '../Data/aboutData';
 
 const Testimonial = () => {
   return (
-    <div className="carousel">
+    <div className="carousel display">
       <h2>Recent Testimonials</h2>
       <Carousel
         variant="dark"

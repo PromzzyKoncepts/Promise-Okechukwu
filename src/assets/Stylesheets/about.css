@@ -61,3 +61,46 @@
   margin-left: 10px;
   color: white !important;
 }
+
+@media screen and (max-width: 768px) {
+  .about-container {
+    padding: 0 20px;
+  }
+
+  .about {
+    display: block;
+    gap: 60px;
+    height: 100%;
+    margin: 40px 0;
+  }
+
+  .about p {
+    text-align: justify;
+    margin-top: 20px;
+  }
+
+  .download {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    margin: 20px auto;
+  }
+
+  .counter-container {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #1a1a1a;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    font-size: 0.8rem;
+  }
+
+  #experienceCounter,
+  #githubStarsCounter,
+  #feedbackCounter,
+  #projectsCounter {
+    font-size: 1.2rem;
+  }
+}

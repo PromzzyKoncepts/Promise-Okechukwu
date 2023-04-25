@@ -6,7 +6,7 @@ const ContactForm = () => (
     <div className="">
       <form
         onSubmit={(e) => {
-					  e.preventDefault();
+          e.preventDefault();
         }}
         className=""
       >

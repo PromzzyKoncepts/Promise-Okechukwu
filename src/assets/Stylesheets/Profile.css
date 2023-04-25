@@ -100,9 +100,23 @@ strong {
 
 @media screen and (max-width: 768px) {
   .content h2 {
-    font-size: 4em;
+    font-size: 2.2em;
+
     /* adjust font size */
+    transform: translate(-4%, 0%);
     top: 25%;
+
     /* adjust position */
+  }
+
+  .typing {
+    margin-top: 60px;
+    font-size: 18px;
+    font-family: consolas, sans-serif !important;
+    width: 30ch;
+    animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
+    overflow: hidden;
+    border-right: 3px solid;
+    color: #d8532b;
   }
 }

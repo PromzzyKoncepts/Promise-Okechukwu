@@ -1,7 +1,7 @@
 .skill-container {
   width: 70%;
   margin: 50px auto !important;
-  color: rgba(0, 195, 255, 0.829)!important;
+  color: rgba(0, 195, 255, 0.829) !important;
 }
 
 .skill-container h2 {
@@ -29,4 +29,37 @@
 
 .card p {
   font-size: 1rem;
+  margin-bottom: 0 !important;
+}
+
+@media screen and (max-width: 768px) {
+  .skill-container {
+    width: 75%;
+    margin: 50px auto !important;
+    color: rgba(0, 195, 255, 0.829) !important;
+  }
+
+  .skill-cards {
+    display: grid;
+    gap: 8px;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .card {
+    padding: 8px 5px !important;
+    border-radius: 8px;
+    display: flex !important;
+    text-align: center !important;
+    align-items: center !important;
+    font-size: 1.8rem !important;
+    justify-content: center !important;
+    gap: 10px;
+    background-color: #1a1a1a !important;
+    border: none !important;
+  }
+
+  .card p {
+    font-size: 0.7rem;
+    margin-bottom: 0 !important;
+  }
 }

@@ -3,10 +3,10 @@ import CounterItem from './counterItem';
 import '../assets/Stylesheets/about.css';
 
 const AboutCounter = () => {
-  useCountUp({ ref: 'experienceCounter', end: 3, duration: 2 });
-  useCountUp({ ref: 'githubStarsCounter', end: 300, duration: 2 });
-  useCountUp({ ref: 'feedbackCounter', end: 92, duration: 2 });
-  useCountUp({ ref: 'projectsCounter', end: 77, duration: 2 });
+  useCountUp({ ref: 'experienceCounter', end: 3, duration: 3 });
+  useCountUp({ ref: 'githubStarsCounter', end: 300, duration: 3 });
+  useCountUp({ ref: 'feedbackCounter', end: 92, duration: 3 });
+  useCountUp({ ref: 'projectsCounter', end: 77, duration: 3 });
 
   return (
     <div className="">

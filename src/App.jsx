@@ -1,5 +1,7 @@
+import {
+  React, useState, useRef, lazy, Suspense,
+} from 'react';
 import { AnimatePresence } from 'framer-motion';
-import { lazy, Suspense } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import 'react-loading-skeleton/dist/skeleton.css';
 import './App.css';
@@ -7,11 +9,15 @@ import Footer from './components/Footer';
 import UseScrollToTop from './hooks/useScrollToTop';
 import About from './pages/About';
 import Contact from './pages/Contact';
+import { Burger, Menu } from './components/hamburger';
 
 const Home = lazy(() => import('./pages/Home'));
 const Header = lazy(() => import('./components/Header'));
 
 function App() {
+  const [open, setOpen] = useState(false);
+  const node = useRef();
+
   return (
     <AnimatePresence>
       <div className="App">
@@ -49,6 +55,10 @@ function App() {
           >
             <Router>
               <Header />
+              <div ref={node} className="hamburger">
+                <Burger open={open} setOpen={setOpen} />
+                <Menu open={open} setOpen={setOpen} />
+              </div>
               <Routes>
                 <Route exact path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />

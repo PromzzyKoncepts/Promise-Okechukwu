@@ -1,4 +1,5 @@
 import React from 'react';
+import Proptypes from 'prop-types';
 
 const FormInput = ({
   inputLabel,
@@ -29,3 +30,12 @@ const FormInput = ({
 );
 
 export default FormInput;
+FormInput.propTypes = {
+  inputLabel: Proptypes.string.isRequired,
+  labelFor: Proptypes.string.isRequired,
+  inputType: Proptypes.string.isRequired,
+  inputId: Proptypes.string.isRequired,
+  inputName: Proptypes.string.isRequired,
+  placeholderText: Proptypes.string.isRequired,
+  ariaLabelName: Proptypes.string.isRequired,
+};

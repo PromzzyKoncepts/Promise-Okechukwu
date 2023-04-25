@@ -48,6 +48,10 @@ main {
   animation: worm1 2s linear infinite;
 }
 
+.hamburger {
+  display: none;
+}
+
 .ip__worm2 {
   animation-name: worm2;
 }
@@ -96,5 +100,15 @@ main {
 
   to {
     stroke-dashoffset: -358;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .scrollToTop {
+    transform: translate(-30px, -60px) !important;
   }
 }

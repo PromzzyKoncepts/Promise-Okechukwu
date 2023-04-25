@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import Slide from 'react-reveal/Slide';
 import { FiChevronUp } from 'react-icons/fi';
+import "../App.css"
 
 const useScrollToTop = () => {
   const [showScroll, setShowScroll] = useState(false);

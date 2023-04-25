@@ -86,6 +86,6 @@ const HireMeModal = ({ show, handleClose }) => {
 
 export default HireMeModal;
 HireMeModal.propTypes = {
-  show: Proptypes.any.isRequired,
+  show: Proptypes.bool.isRequired,
   handleClose: Proptypes.func.isRequired,
 };

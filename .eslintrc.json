@@ -22,6 +22,7 @@
     "no-shadow": "off",
     "import/extensions": "warn",
     "no-param-reassign": "off",
+    "jsx-a11y/control-has-associated-label": "off",
     "camelcase": ["error", {"properties": "never"}]
   },
   "ignorePatterns": [
