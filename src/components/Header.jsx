@@ -32,8 +32,8 @@ const Header = () => {
 
           {/* Header links small screen */}
           <div className="pages">
-            <Link to="/projects" className="" aria-label="Projects">
-              Projects
+            <Link to="/" className="" aria-label="Projects">
+              Home
             </Link>
             <Link to="/about" className="" aria-label="About Me">
               About
