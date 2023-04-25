@@ -17,7 +17,7 @@
 }
 
 .input {
-  width: 100%!important;
+  width: 100% !important;
   background: none;
   border: none;
   margin-top: 20px;
@@ -30,14 +30,14 @@
 }
 
 .input:hover::placeholder {
-  color: #03A9F4;
+  color: #03a9f4;
 }
 
 .form-btn {
-  margin-top: 30px!important ;
+  margin-top: 30px !important;
 }
 
-.contact-details ul li{
+.contact-details ul li {
   list-style: none;
   margin-top: 20px;
 }

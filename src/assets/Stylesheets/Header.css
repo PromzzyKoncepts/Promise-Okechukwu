@@ -73,3 +73,9 @@
   align-items: center;
   color: #fff !important;
 }
+
+@media screen and (max-width: 768px) {
+  .header {
+    display: none;
+  }
+}

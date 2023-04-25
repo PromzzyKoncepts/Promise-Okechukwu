@@ -20,32 +20,32 @@ const aboutInfo = [
 const Testimonials = [
   {
     id: 1,
-    name: "Victory Edewor",
-    image: "https://media.licdn.com/dms/image/C4E03AQEHs6a00g70tQ/profile-displayphoto-shrink_200_200/0/1609332437537?e=1687996800&v=beta&t=c7qNmEgdFXFXPQ2QTfPggiQSZZ1VN09OAxWeYt1bbYg",
-    title: "Sales and Business Development Manager - Medical Equipments and Diagnostics at Saradore Trust Nigeria Limited",
+    name: 'Victory Edewor',
+    image: 'https://media.licdn.com/dms/image/C4E03AQEHs6a00g70tQ/profile-displayphoto-shrink_200_200/0/1609332437537?e=1687996800&v=beta&t=c7qNmEgdFXFXPQ2QTfPggiQSZZ1VN09OAxWeYt1bbYg',
+    title: 'Sales and Business Development Manager - Medical Equipments and Diagnostics at Saradore Trust Nigeria Limited',
     description: "I and Promise worked together several times during our study at Microverse, and I was constantly impressed at his consistency and resilience even in the face of difficult challenges. His dedication and his friendly character makes him a very amazing teammate. He is a very hard-working person who constantly works on improving himself. He is a talented person, and it was indeed a delight to work with him. I recommend Promise for any Developer positions he won't let you down.",
   },
   {
     id: 2,
-    name: "Shaddai Linus",
-    image: "https://media.licdn.com/dms/image/D4D35AQEtkDhgB4Ruhw/profile-framedphoto-shrink_200_200/0/1672662930285?e=1683043200&v=beta&t=CgGw04s1T38oOKvIQd-iqAALCtCvI3oT2o-8obgbJis",
-    title: "Full-stack Web Developer, Mentor @Microverse",
+    name: 'Shaddai Linus',
+    image: 'https://media.licdn.com/dms/image/D4D35AQEtkDhgB4Ruhw/profile-framedphoto-shrink_200_200/0/1672662930285?e=1683043200&v=beta&t=CgGw04s1T38oOKvIQd-iqAALCtCvI3oT2o-8obgbJis',
+    title: 'Full-stack Web Developer, Mentor @Microverse',
     description: "I and Promise worked together several times during our study at Microverse, and I was constantly impressed at his consistency and resilience even in the face of difficult challenges. His dedication and his friendly character makes him a very amazing teammate. He is a very hard-working person who constantly works on improving himself. He is a talented person, and it was indeed a delight to work with him. I recommend Promise for any Developer positions he won't let you down.",
   },
   {
     id: 3,
-    name: "Anas Chaabane",
-    image: "https://media.licdn.com/dms/image/D4E35AQHufnzb3LVPiw/profile-framedphoto-shrink_200_200/0/1672137170913?e=1683043200&v=beta&t=EdeI5RiDpuxfcmLXzkBtYd1fWHKLpE9UaQNTCLuaIN4",
-    title: "Full-stack Web Developer, Typescript|JavaScript|Ruby|Rails",
-    description: "I have always loved working with Promise He is the type of guy you enjoy working with duo To his positive attitude and optimistic personality, Beside Promise coding skills, He has an artist Eye, he will always pick the right design and colors and produce a piece of art. If your looking for a guys that will not only build your website but also present it in the best way possible.Promise is your guy",
+    name: 'Anas Chaabane',
+    image: 'https://media.licdn.com/dms/image/D4E35AQHufnzb3LVPiw/profile-framedphoto-shrink_200_200/0/1672137170913?e=1683043200&v=beta&t=EdeI5RiDpuxfcmLXzkBtYd1fWHKLpE9UaQNTCLuaIN4',
+    title: 'Full-stack Web Developer, Typescript|JavaScript|Ruby|Rails',
+    description: 'I have always loved working with Promise He is the type of guy you enjoy working with duo To his positive attitude and optimistic personality, Beside Promise coding skills, He has an artist Eye, he will always pick the right design and colors and produce a piece of art. If your looking for a guys that will not only build your website but also present it in the best way possible.Promise is your guy',
   },
   {
     id: 4,
-    name: "Habib Payenda",
-    image: "https://media.licdn.com/dms/image/D4D35AQHY_iASgxNvMw/profile-framedphoto-shrink_200_200/0/1672192364528?e=1683043200&v=beta&t=BFh3b2EaZy3cB-v53Q8P0xfXGM6_oSE1SWuoDVlf7mU",
-    title: "Full-stack Web Developer, Typescript|JavaScript|Ruby|Rails",
+    name: 'Habib Payenda',
+    image: 'https://media.licdn.com/dms/image/D4D35AQHY_iASgxNvMw/profile-framedphoto-shrink_200_200/0/1672192364528?e=1683043200&v=beta&t=BFh3b2EaZy3cB-v53Q8P0xfXGM6_oSE1SWuoDVlf7mU',
+    title: 'Full-stack Web Developer, Typescript|JavaScript|Ruby|Rails',
     description: "it's a pleasure for me to recommend Promise, he is an intelligent and excellent software developer with great skills for solving complex problems. he masters most of the recent web technologies. We worked together on real- world projects and I can affirm he is a great collaborator and a good team player that always pushes everyone.I've learned a lot from him as a teammate. I highly recommend him.",
-  }
-]
+  },
+];
 
 export { aboutInfo, Testimonials };

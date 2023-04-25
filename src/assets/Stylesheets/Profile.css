@@ -97,3 +97,12 @@ strong {
     border-color: transparent;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .content h2 {
+    font-size: 4em;
+    /* adjust font size */
+    top: 25%;
+    /* adjust position */
+  }
+}

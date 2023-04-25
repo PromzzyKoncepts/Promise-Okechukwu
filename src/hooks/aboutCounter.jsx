@@ -2,7 +2,6 @@ import { useCountUp } from 'react-countup';
 import CounterItem from './counterItem';
 import '../assets/Stylesheets/about.css';
 
-
 const AboutCounter = () => {
   useCountUp({ ref: 'experienceCounter', end: 3, duration: 2 });
   useCountUp({ ref: 'githubStarsCounter', end: 300, duration: 2 });
