@@ -8,7 +8,7 @@ const Projects = () => (
     <div className="card-container">
       {projectData.map((item) => (
         <div className="project-card" key={item.id}>
-          <img src={item.image} />
+          <img src={item.image} alt="projects" />
           <h4>
             {item.name}
             {' '}

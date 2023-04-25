@@ -1,4 +1,5 @@
 import React from 'react';
+import Proptypes from 'prop-types';
 
 const CounterItem = ({ title, counter, measurement }) => (
   <div className="">
@@ -14,3 +15,8 @@ const CounterItem = ({ title, counter, measurement }) => (
 );
 
 export default CounterItem;
+CounterItem.propTypes = {
+  title: Proptypes.string.isRequired,
+  counter: Proptypes.string.isRequired,
+  measurement: Proptypes.string.isRequired,
+};

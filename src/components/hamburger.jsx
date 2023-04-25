@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import Proptypes from 'prop-types';
 
 const StyledMenu = styled.nav`
   display: flex;
@@ -113,3 +114,10 @@ const Burger = ({ open, setOpen }) => (
 );
 
 export { Burger, Menu };
+Burger.propTypes = {
+  open: Proptypes.bool.isRequired,
+  setOpen: Proptypes.bool.isRequired,
+};
+Menu.propTypes = {
+  open: Proptypes.bool.isRequired,
+};

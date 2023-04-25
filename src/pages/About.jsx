@@ -1,16 +1,16 @@
+import { FiArrowDownCircle } from 'react-icons/fi';
 import FollowMe from '../partials/follow';
 import '../assets/Stylesheets/about.css';
 import { aboutInfo } from '../Data/aboutData';
-import promiseLight from '../assets/images/promise-light.png';
+import promiseDark from '../assets/images/promise-dark.png';
 import AboutCounter from '../hooks/aboutCounter';
 import Testimonial from '../partials/Testimonials';
-import { FiArrowDownCircle } from 'react-icons/fi';
 
 const About = () => (
   <div className="about-container">
     <div className="about">
       <div>
-        <img src={promiseLight} className="about-image" />
+        <img src={promiseDark} alt="myself" className="about-image" />
       </div>
       <div>
         {aboutInfo.map((info) => (
