@@ -23,6 +23,7 @@
     "import/extensions": "warn",
     "no-param-reassign": "off",
     "jsx-a11y/control-has-associated-label": "off",
+    "react/forbid-prop-types": "off",
     "camelcase": ["error", {"properties": "never"}]
   },
   "ignorePatterns": [

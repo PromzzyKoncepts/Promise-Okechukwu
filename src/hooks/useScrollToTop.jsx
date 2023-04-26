@@ -1,7 +1,6 @@
 /* eslint-disable */
 
 import { useState, useEffect } from 'react';
-import Slide from 'react-reveal/Slide';
 import { FiChevronUp } from 'react-icons/fi';
 import "../App.css"
 
@@ -34,23 +33,21 @@ const useScrollToTop = () => {
 
   return (
     <>
-      <Slide bottom>
-        <FiChevronUp
-          className="scrollToTop"
-          onClick={backToTop}
-          style={{
-            height: 45,
-            width: 45,
-            borderRadius: 50,
-            right: 50,
-            transform: 'translate(-50px, -60px)',
-            display: showScroll ? 'flex' : 'none',
-            float: 'right',
-            backgroundColor: '#333',
-            cursor: 'pointer',
-          }}
-        />
-      </Slide>
+      <FiChevronUp
+        className="scrollToTop"
+        onClick={backToTop}
+        style={{
+          height: 45,
+          width: 45,
+          borderRadius: 50,
+          right: 50,
+          transform: 'translate(-50px, -60px)',
+          display: showScroll ? 'flex' : 'none',
+          float: 'right',
+          backgroundColor: '#333',
+          cursor: 'pointer',
+        }}
+      />
     </>
   );
 };
