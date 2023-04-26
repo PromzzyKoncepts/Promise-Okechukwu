@@ -1,9 +1,7 @@
-import Slide from 'react-reveal/Slide';
 import skillsData from '../Data/skillsData';
 import '../assets/Stylesheets/Skills.css';
 
 const Skills = () => (
-  <Slide left>
     <div className="skill-container">
       <h2>Skills, Languages and Frameworks</h2>
       <div className="skill-cards">
@@ -15,7 +13,6 @@ const Skills = () => (
         ))}
       </div>
     </div>
-  </Slide>
 
 );
 export default Skills;

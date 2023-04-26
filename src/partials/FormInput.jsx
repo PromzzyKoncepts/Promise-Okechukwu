@@ -2,8 +2,6 @@ import React from 'react';
 import Proptypes from 'prop-types';
 
 const FormInput = ({
-  inputLabel,
-  labelFor,
   inputType,
   inputId,
   inputName,
@@ -11,12 +9,6 @@ const FormInput = ({
   ariaLabelName,
 }) => (
   <div className="input">
-    <label
-      className=""
-      htmlFor={labelFor}
-    >
-      {inputLabel}
-    </label>
     <input
       className="input"
       type={inputType}
@@ -31,8 +23,6 @@ const FormInput = ({
 
 export default FormInput;
 FormInput.propTypes = {
-  inputLabel: Proptypes.string.isRequired,
-  labelFor: Proptypes.string.isRequired,
   inputType: Proptypes.string.isRequired,
   inputId: Proptypes.string.isRequired,
   inputName: Proptypes.string.isRequired,

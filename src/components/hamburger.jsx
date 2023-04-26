@@ -116,7 +116,7 @@ const Burger = ({ open, setOpen }) => (
 export { Burger, Menu };
 Burger.propTypes = {
   open: Proptypes.bool.isRequired,
-  setOpen: Proptypes.bool.isRequired,
+  setOpen: Proptypes.func.isRequired,
 };
 Menu.propTypes = {
   open: Proptypes.bool.isRequired,

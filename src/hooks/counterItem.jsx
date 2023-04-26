@@ -17,6 +17,6 @@ const CounterItem = ({ title, counter, measurement }) => (
 export default CounterItem;
 CounterItem.propTypes = {
   title: Proptypes.string.isRequired,
-  counter: Proptypes.string.isRequired,
+  counter: Proptypes.object.isRequired,
   measurement: Proptypes.string.isRequired,
 };

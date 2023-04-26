@@ -16,7 +16,7 @@ const Testimonial = () => {
         variant="dark"
       >
         {Testimonials.map((item) => (
-          <Carousel.Item>
+          <Carousel.Item key={item.id}>
             <img
               className="d-block w-100"
               src="https://img.freepik.com/free-vector/digital-technology-background-with-abstract-wave-border_53876-117508.jpg"
