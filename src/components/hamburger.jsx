@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import Proptypes from 'prop-types';
+import { Link } from 'react-router-dom';
 
 const StyledMenu = styled.nav`
   display: flex;
@@ -42,20 +43,17 @@ const StyledMenu = styled.nav`
   }
 `;
 
-const Menu = ({ open }) => (
+const Menu = ({ open, setOpen }) => (
   <StyledMenu open={open}>
-    <a href="/">
-      <span role="img" aria-label="Home" />
+    <Link to="/" onClick={() => setOpen(false)}>
       Home
-    </a>
-    <a href="/about">
-      <span role="img" aria-label="Home" />
+    </Link>
+    <Link to="/about" onClick={() => setOpen(false)}>
       About us
-    </a>
-    <a href="/contact">
-      <span role="img" aria-label="price" />
+    </Link>
+    <Link to="/contact" onClick={() => setOpen(false)}>
       Contact
-    </a>
+    </Link>
   </StyledMenu>
 );
 
