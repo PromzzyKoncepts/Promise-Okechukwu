@@ -118,4 +118,5 @@ Burger.propTypes = {
 };
 Menu.propTypes = {
   open: Proptypes.bool.isRequired,
+  setOpen: Proptypes.func.isRequired,
 };
