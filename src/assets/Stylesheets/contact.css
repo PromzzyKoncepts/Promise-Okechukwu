@@ -49,6 +49,7 @@
 @media screen and (max-width: 768px) {
   .contact-div {
     display: grid;
+    margin-top: 70px;
     height: 100%;
     padding: 16px;
   }

@@ -11,7 +11,7 @@ const ContactForm = () => (
         className=""
       >
         <h3 className="">
-          Contact Form
+          Contact Me
         </h3>
         <FormInput
           inputType="text"

@@ -6,7 +6,7 @@ const AboutCounter = () => {
   useCountUp({ ref: 'experienceCounter', end: 3, duration: 3 });
   useCountUp({ ref: 'githubStarsCounter', end: 300, duration: 3 });
   useCountUp({ ref: 'feedbackCounter', end: 92, duration: 3 });
-  useCountUp({ ref: 'projectsCounter', end: 77, duration: 3 });
+  useCountUp({ ref: 'projectsCounter', end: 50, duration: 3 });
 
   return (
     <div className="">
@@ -32,7 +32,7 @@ const AboutCounter = () => {
         <CounterItem
           title="Projects completed"
           counter={<span id="projectsCounter" />}
-          measurement="%"
+          measurement="+"
         />
       </div>
     </div>

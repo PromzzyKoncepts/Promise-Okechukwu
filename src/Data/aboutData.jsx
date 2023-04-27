@@ -1,15 +1,15 @@
 const aboutInfo = [
   {
     id: 1,
-    bio: 'I am a passionate and creative individual with an intricate eye for design and problem- solving. Born and raised in Lagos, Nigeria, I pursued my education in Metallurgical and Materials Engineering and obtained a B.Eng degree from the University of Nigeria, Nsukka.',
+    bio: 'I am a passionate and creative individual with an intricate eye for design and problem-solving. I honed my skills by becoming a full-stack software developer at Microverse Inc, where I gained valuable experience working on a wide range of projects, most of which can be seen in my projects.',
   },
   {
     id: 2,
-    bio: 'I further honed my skills by becoming a full-stack software developer at Microverse, where I gained valuable experience working on a wide range of projects, most of which can be seen in my projects. My proficiency in coding is complemented by my certified talents in graphics design, UI/UX design, and videography, making me a multi-talented individual who stays focused even while multi-tasking.',
+    bio: 'My proficiency in coding is complemented by my certified talents in Graphics design, UI/UX design, and 3D animation, making me a multi-talented individual who stays focused even while multi-tasking.',
   },
   {
     id: 3,
-    bio: "In addition to my technical skills, I'm also a natural leader and mentor, having developed these qualities in various spheres of life.I'm passionate about building others, whether high or low, and helping them achieve their full potential.",
+    bio: "In addition to my technical skills, I'm also a natural leader and mentor, having developed these qualities in various spheres of life. I'm passionate about building others, whether high or low, and helping them achieve their full potential.",
   },
   {
     id: 4,
@@ -23,7 +23,7 @@ const Testimonials = [
     name: 'Victory Edewor',
     image: 'https://media.licdn.com/dms/image/C4E03AQEHs6a00g70tQ/profile-displayphoto-shrink_200_200/0/1609332437537?e=1687996800&v=beta&t=c7qNmEgdFXFXPQ2QTfPggiQSZZ1VN09OAxWeYt1bbYg',
     title: 'Sales and Business Development Manager - Medical Equipments and Diagnostics at Saradore Trust Nigeria Limited',
-    description: "I and Promise worked together several times during our study at Microverse, and I was constantly impressed at his consistency and resilience even in the face of difficult challenges. His dedication and his friendly character makes him a very amazing teammate. He is a very hard-working person who constantly works on improving himself. He is a talented person, and it was indeed a delight to work with him. I recommend Promise for any Developer positions he won't let you down.",
+    description: "I and Promise worked together several times. and I was constantly impressed at his consistency and resilience even in the face of difficult challenges. His dedication and his friendly character makes him a very amazing teammate. He is a very hard-working person who constantly works on improving himself. He is a talented person, and it was indeed a delight to work with him. I recommend Promise for any Developer positions he won't let you down.",
   },
   {
     id: 2,

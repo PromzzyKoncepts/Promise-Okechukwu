@@ -48,7 +48,7 @@
 
 .button {
   border: none !important;
-  background-color: #bf4e2c !important;
+  background-color: #d6d310 !important;
   padding: 6px 10px !important;
   border-radius: 7px !important;
   font-weight: 600;
@@ -60,7 +60,7 @@
   padding: 6px 10px !important;
   border-radius: 7px !important;
   font-weight: 600;
-  color: #bf4e2c;
+  color: #000;
   transition: all 0.5s ease-in-out;
 }
 
