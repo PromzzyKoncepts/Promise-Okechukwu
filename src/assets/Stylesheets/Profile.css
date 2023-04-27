@@ -119,4 +119,9 @@ strong {
     border-right: 3px solid;
     color: #d8532b;
   }
+
+  .content h2:nth-child(1) {
+    color: transparent;
+    -webkit-text-stroke: 0.5px #03a9f4;
+  }
 }
