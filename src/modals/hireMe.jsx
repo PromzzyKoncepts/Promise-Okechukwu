@@ -32,7 +32,6 @@ const HireMeModal = ({ show, handleClose }) => {
       });
 
     handleClose();
-
   };
 
   const selectOptions = [
@@ -58,7 +57,7 @@ const HireMeModal = ({ show, handleClose }) => {
                   type="name"
                   placeholder="Enter Name or company name"
                   autoFocus
-                  name='from_name'
+                  name="from_name"
                   value={name}
                   onChange={(e) => setName(e.target.value)}
                 />
@@ -67,7 +66,7 @@ const HireMeModal = ({ show, handleClose }) => {
                   type="email"
                   placeholder="name@example.com"
                   autoFocus
-                  name='user_email'
+                  name="user_email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                 />
@@ -108,7 +107,7 @@ const HireMeModal = ({ show, handleClose }) => {
           </Modal.Body>
         </Modal>
       ) : (
-        <small style={{ color: '#d6d310'}}>Message Sent, I will get back to you!!</small>
+        <small style={{ color: '#d6d310' }}>Message Sent, I will get back to you!!</small>
       )}
     </>
   );
