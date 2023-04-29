@@ -16,8 +16,6 @@
 
 .about-image {
   max-width: 100%;
-
-  /* width: 400px; */
 }
 
 .download {
@@ -30,8 +28,8 @@
 
 .download:active {
   text-decoration: none;
-  color: #fff !important;
-  background-color: brown;
+  color: #000 !important;
+  background-color: #d6d310;
   padding: 8px 12px;
   border-radius: 8px;
 }
@@ -82,6 +80,7 @@
   .download {
     display: flex;
     align-items: center;
+    justify-content: center;
     width: 50%;
     margin: 20px auto;
   }

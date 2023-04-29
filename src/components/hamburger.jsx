@@ -49,7 +49,7 @@ const Menu = ({ open, setOpen }) => (
       Home
     </Link>
     <Link to="/about" onClick={() => setOpen(false)}>
-      About us
+      About Me
     </Link>
     <Link to="/contact" onClick={() => setOpen(false)}>
       Contact
