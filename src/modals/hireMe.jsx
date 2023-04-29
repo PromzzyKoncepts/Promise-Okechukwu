@@ -24,11 +24,11 @@ const HireMeModal = ({ show, handleClose }) => {
     e.preventDefault();
     emailjs.sendForm('service_6hu8kxc', 'template_acct32f', form.current, 'yhGr4mjp3VUIWMKZY')
       .then((result) => {
-        console.log(result.text);
-        console.log('message sent!');
+        // console.log(result.text);
+        // console.log('message sent!');
         setIsSent(true);
       }, (error) => {
-        console.log(error.text);
+        // console.log(error.text);
       });
 
     handleClose();
