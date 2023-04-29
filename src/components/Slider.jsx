@@ -31,8 +31,8 @@ const Slider = () => (
         <div className="image-wrapper">
           <CImage className="d-block w-100" src={covidTracker} alt="slide 2" />
           <div className="image-links">
-            <a href="#" target="_blank" className="live-demo-link">Live Demo</a>
-            <a href="#" target="_blank" className="github-link">Github</a>
+            <a href="https://c0r0natracker.netlify.app/" target="_blank" className="live-demo-link">Live Demo</a>
+            <a href="https://github.com/PromzzyKoncepts/Covid19-Tracker-App" target="_blank" className="github-link">Github</a>
           </div>
         </div>
         <CCarouselCaption className="d-none d-md-block">
@@ -43,8 +43,8 @@ const Slider = () => (
         <div className="image-wrapper">
           <CImage className="d-block w-100" src={spacHub} alt="slide 3" />
           <div className="image-links">
-            <a href="#" target="_blank" className="live-demo-link">Live Demo</a>
-            <a href="#" target="_blank" className="github-link">Github</a>
+            <a href="https://spacehubb.netlify.app/" target="_blank" className="live-demo-link">Live Demo</a>
+            <a href="https://github.com/PromzzyKoncepts/Space-Travellers-Hub" target="_blank" className="github-link">Github</a>
           </div>
         </div>
         <CCarouselCaption className="d-none d-md-block">
@@ -55,8 +55,8 @@ const Slider = () => (
         <div className="image-wrapper">
           <CImage className="d-block w-100" src={pranMovies} alt="slide 3" />
           <div className="image-links">
-            <a href="#" target="_blank" className="live-demo-link">Live Demo</a>
-            <a href="#" target="_blank" className="github-link">Github</a>
+            <a href="https://promzzykoncepts.github.io/PranMovies/" target="_blank" className="live-demo-link">Live Demo</a>
+            <a href="https://github.com/PromzzyKoncepts/PranMovies" target="_blank" className="github-link">Github</a>
           </div>
         </div>
         <CCarouselCaption className="d-none d-md-block">
