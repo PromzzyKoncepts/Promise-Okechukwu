@@ -1,8 +1,11 @@
 import spaceHub from '../assets/images/Spacehub.png';
 import budgetApp from '../assets/images/BudgetApp.png';
+import budget from '../assets/images/Budget.png';
 import covidTracker from '../assets/images/CovidTracker.png';
 import pranMovies from '../assets/images/Pranmovies.png';
 import Regal from '../assets/images/Regal.png';
+import Calculator from '../assets/images/Calculator.png';
+import bookStore from '../assets/images/BookStore.png';
 
 export default [
   {
@@ -24,9 +27,9 @@ export default [
   {
     id: 3,
     name: 'Recipe App',
-    image: budgetApp,
+    image: budget,
     technologies: ['Ruby', 'Rails', 'CSS'],
-    github: 'https://github.com/PromzzyKoncepts/Budget-App',
+    github: 'https://github.com/PromzzyKoncepts/Recipe-App',
     demo: 'https://budget-app-niq8.onrender.com/',
   },
   {
@@ -34,7 +37,7 @@ export default [
     name: 'Blog App',
     image: budgetApp,
     technologies: ['Ruby', 'Rails', 'CSS'],
-    github: 'https://github.com/PromzzyKoncepts/Budget-App',
+    github: 'https://github.com/PromzzyKoncepts/Blog-App/',
     demo: 'https://budget-app-niq8.onrender.com/',
   },
   {
@@ -56,7 +59,7 @@ export default [
   {
     id: 7,
     name: 'BookStore App',
-    image: spaceHub,
+    image: bookStore,
     technologies: ['React', 'Redux', 'API'],
     github: 'https://github.com/PromzzyKoncepts/BookStore-React',
     demo: 'https://bookstore-redux.netlify.app',
@@ -72,7 +75,7 @@ export default [
   {
     id: 9,
     name: 'Maths Calculator',
-    image: spaceHub,
+    image: Calculator,
     technologies: ['React', 'Javascript', 'CSS'],
     github: 'https://github.com/PromzzyKoncepts/Math-Magician',
     demo: 'https://mathmag.netlify.app',
