@@ -10,11 +10,11 @@ const ContactForm = () => {
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs.sendForm('service_6hu8kxc', 'template_acct32f', form.current, 'yhGr4mjp3VUIWMKZY')
-      .then((result) => {
+      .then(() => {
         // console.log(result.text);
         // console.log('message sent!');
         setIsSent(true);
-      }, (error) => {
+      }, () => {
         // console.log(error.text);
       });
   };
